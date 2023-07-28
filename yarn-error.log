@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Henrique\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add cars
+
+PATH: 
+  C:\Users\Henrique\Desktop\Cmder\bin;C:\Users\Henrique\Desktop\Cmder\vendor\bin;C:\Users\Henrique\Desktop\Cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\Henrique\Desktop\Cmder\vendor\conemu-maximus5;C:\Users\Henrique\Desktop\Cmder\vendor\conemu-maximus5\ConEmu;C:\Ruby32-x64\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\TDM-GCC-64\bin;C:\Program Files\nodejs\;C:\Users\Henrique\AppData\Local\Microsoft\WindowsApps;;C:\Users\Henrique\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Henrique\AppData\Roaming\npm;C:\Users\Henrique\Desktop\Cmder
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  18.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: read ECONNRESET
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.18.2"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.22"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
